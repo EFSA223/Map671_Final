@@ -4,8 +4,9 @@
 <head>
 	<meta charset=utf-8 />
 	<title>USA Tornadoes 1950 - 2017</title>
-	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
+	<meta name='viewport'content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<meta name="discription" content "Mapping the USA Tornadoes"
+	<meta name="author" content="Etienne Sambo">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
@@ -59,6 +60,7 @@
 		}
 
 		#map {
+		/*	position: relative; */
 			width: 100%;
 			margin: 10px auto;
 			border: 2px solid #d3d3d3;
@@ -85,17 +87,23 @@
 
 		<!-- Add you information below -->
 		<h2>Authored by Etienne Sambo</h2>
-		<p>Map prepare by Etienne Sambo, Final assignment for the digital mapping course Map671 module-10, "Introduction to New Mapping", jun 2018.<br>
-	  The software QGIS 2.18.18 was used on Windows 64 bit platform and the Carto Builder.</p>
+		<p>This is the final assignment for the <a href="https://newmapsplus.uky.edu/new-maps-plus-programs-and-online-courses"> "Online Graduate Education in Digital Mapping"</a> at the Univerity of Kentucky.<br>
+		Map671-202, "Introduction to New Mapping", jun 2018.<br><p>
 
+		<p><b>About the Map:</b><br>
+		This Map is composed by counting the number of all tornadoes (Fujita-Pearson score of F0 - F5) per county.</p> If you zoom in the map you will see the 
+		Application used: 64 bit QGIS 2.18.18 on Windows 10 and CARTO.<br>
+		Data source: NOAA's National Weather Service.
+		<a href="https://www.spc.noaa.gov/gis/svrgis/">"Storm Prediction Center"</a>
+		<p><b>CRS</b>: WGS84 (EPSG 4269)</p>
 		<ul>
-			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
-
-	<li>Visit my <a href='https://github.com/EFSA223'>GitHub  projects</a>.</li>
-
-<!--
-			<li>See my latest tweets  <a href='https://github.com/'>@gottabeard</a>.</li>  -->
-		</ul>
+      <!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+      <li>See my projects on GitHub:
+			<a href="https://github.com/efsa223">My projects</a></li>
+  <!--    <li>Follow me on twitter: <a 		  href="https://twitter.com/NewMapsPlus">@NewMapsPlus</a></li>
+      <li>Visit my <a href='#'>mapping portfolio</a>.</li>
+	-->
+    </ul>
 	</section>
 
 </body>
